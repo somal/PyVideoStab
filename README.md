@@ -1,6 +1,8 @@
 # PyVideoStab
 Python wrapper of OpenCV's videostab
 
+Based on [pyboostcvconverter](https://github.com/Algomorph/pyboostcvconverter)
+
 pyboostcvconverter
 ==================
 
