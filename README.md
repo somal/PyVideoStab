@@ -16,10 +16,10 @@ Compiling & Trying Out Sample Code
 ----------------------
 1. Install CMake and/or CMake-gui (http://www.cmake.org/download/, ```sudo apt-get install cmake cmake-gui``` on Ubuntu/Debian)
 2. Automated mode:
--`chmod +x buid.sh`
--`./build.sh`
-3: Manual mode:
-  a. Run CMake and/or CMake-gui with the git repository as the source and a build folder of your choice (in-source builds supported.) Choose desired generator, configure, and generate. Remember to set PYTHON_DESIRED_VERSION to 2.X for python 2 and 3.X for python 3.
-  b. Build (run ```make``` on *nix systems with gcc/eclipse CDT generator from within the build folder)
-  c. On *nix systems, ```make install``` run with root privileges will install the compiled library file. Alternatively, you can manually copy it to the pythonXX/dist-packages directory (replace XX with desired python version).
-  d. Run `test_videostab.py`
+- `chmod +x buid.sh`
+- `./build.sh`
+3. Manual mode:
+- Run CMake and/or CMake-gui with the git repository as the source and a build folder of your choice (in-source builds supported.) Choose desired generator, configure, and generate. Remember to set PYTHON_DESIRED_VERSION to 2.X for python 2 and 3.X for python 3.
+- Build (run ```make``` on *nix systems with gcc/eclipse CDT generator from within the build folder)
+- On *nix systems, ```make install``` run with root privileges will install the compiled library file. Alternatively, you can manually copy it to the pythonXX/dist-packages directory (replace XX with desired python version).
+- Run `test_videostab.py`
