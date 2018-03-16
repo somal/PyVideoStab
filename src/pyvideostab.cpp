@@ -13,7 +13,7 @@
 #include "opencv2/videostab/stabilizer.hpp"
 #include "opencv2/opencv_modules.hpp"
 #include <boost/python.hpp>
-#include <boost/python/numpy.hpp>
+#include <boost/python/numeric.hpp>
 #include "numpy/ndarrayobject.h"
 #include "opencv2/core/core.hpp"
 #include "queue_source.cpp"
@@ -25,7 +25,7 @@
 #define argd(name) cmd.get<double>(name)
 
 namespace py = boost::python;
-namespace np = boost::python::numpy;
+namespace np = boost::python::numeric;
 using namespace std;
 using namespace cv;
 using namespace cv::videostab;
